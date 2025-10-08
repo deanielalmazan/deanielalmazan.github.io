@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.glass {
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0.8rem 1.5rem;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black !important;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+    text-transform: none;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .glass {
+        max-width: 95%;
+        padding: 0.6rem 1rem;
+    }
+
+    .nav-link {
+        padding: 0.3rem 0.8rem;
+    }
+}
+
+/* Section keme */
+.section-card {
+    background-color: #fff;
+    border-radius: 35px;
+    transition: all 0.3s ease;
+}
+
+.section-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* HOME */
+.home-section h1 {
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #444;
+  font-style: italic;
+}
+
+
+/* ABOUT */
+.about-section {
+    background-color: transparent;
+}
+
+.about-section .container {
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-section p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Image Styling keme */
+.profile-img {
+    width: 70%;
+    max-width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .profile-img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
+
+/* CONTACT */
+.contact-section h2 {
+    color: #111;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+
+.circle:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+.contact-section h5 {
+    font-weight: 600;
+    color: #111;
+}
+
+.contact-section p {
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background-color: transparent;
+    color: #666;
+    font-size: 0.9rem;
+}
